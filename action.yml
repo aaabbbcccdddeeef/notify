@@ -1,9 +1,13 @@
 name: 'notifyAction'
 description: 'notify with public bark server'
 inputs:
-  ids:  # id of input
+  ids:
     description: 'the bark device key list'
     required: true
+  title:
+    description: 'message title'
+  body:
+    description: 'message body'
 outputs:
   result: # output will be available to future steps
     description: 'the barked device key list'
