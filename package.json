@@ -4,6 +4,7 @@
   "description": "Just subscribe and be notified",
   "main": "index.js",
   "scripts": {
+    "build": "ncc build src/action.js -o dist --source-map --license licenses.txt",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "dependencies": {
     "@actions/core": "^1.10.0",
     "axios": "^1.1.3"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.34.0"
   }
 }
