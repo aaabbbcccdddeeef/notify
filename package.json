@@ -1,0 +1,23 @@
+{
+  "name": "notifyaction",
+  "version": "1.0.0",
+  "description": "Just subscribe and be notified",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowprompt/notifyAction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shadowprompt/notifyAction/issues"
+  },
+  "homepage": "https://github.com/shadowprompt/notifyAction#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "axios": "^1.1.3"
+  }
+}

@@ -1,0 +1,12 @@
+name: 'notifyAction'
+description: 'notify with public bark server'
+inputs:
+  ids:  # id of input
+    description: 'the bark device key list'
+    required: true
+outputs:
+  result: # output will be available to future steps
+    description: 'the barked device key list'
+runs:
+  using: 'node16'
+  main: 'index.js'
